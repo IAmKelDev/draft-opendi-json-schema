@@ -1,4 +1,4 @@
-# Schema
+# Causal Decision Model
 
 <!DOCTYPE html>
 <html lang="en">
@@ -14,8 +14,6 @@
     <title>Causal Decision Model</title>
 </head>
 <body onload="anchorOnLoad();" id="root">
-
-    <div class="breadcrumbs"></div> <h1>Causal Decision Model</h1><br/>
 <span class="description"><p>(DRAFT) - Represents a Causal Decision Model for OpenDI-compliant services.</p>
 </span><div class="all-of-value" id="allOf"><h2 class="handle">
   <label>All of</label>
