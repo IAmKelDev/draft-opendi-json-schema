@@ -1,4 +1,4 @@
-# Causal Decision Model
+# Schema
 
 <!DOCTYPE html>
 <html lang="en">
