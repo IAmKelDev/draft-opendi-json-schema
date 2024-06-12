@@ -9,8 +9,10 @@ docs_dir: "docs"            #Local directory for docs .md files
 nav:
   - Schema: 'index.md'
   - 'Sample Data': 'test-data.md'
-  - 'OpenDI Home': "https://iamkeldev.github.io/draft-opendi-home"
-  - 'OpenDI Glossary': 'https://iamkeldev.github.io/draft-opendi-home/OpenDI Glossary'
+  - OpenDI:
+    - Home: "https://iamkeldev.github.io/draft-opendi-home"
+    - Glossary: 'https://iamkeldev.github.io/draft-opendi-home/OpenDI Glossary'
+    - 'How to Contribute': 'https://iamkeldev.github.io/draft-opendi-home/How To Contribute'
 
 # Exclude _Role Page Template.md
 exclude_docs: |
