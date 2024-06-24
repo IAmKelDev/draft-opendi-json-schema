@@ -18,7 +18,7 @@
 <body onload="anchorOnLoad();" id="root">
 
     <div class="breadcrumbs"></div> <h1>Causal Decision Model</h1><br/>
-<span class="description"><p>(DRAFT) - Represents a Causal Decision Model for OpenDI-compliant services.</p>
+<span class="description"><p>(DRAFT) -- Represents a Causal Decision Model for OpenDI-compliant services.</p>
 </span><div class="all-of-value" id="allOf"><h2 class="handle">
   <label>All of</label>
 </h2><ul class="nav nav-tabs" id="tabsallOf_allOf" role="tablist"><li class="nav-item">
@@ -5125,6 +5125,6 @@
         
 
     <footer>
-        <p class="generated-by-footer">Generated using <a href="https://github.com/coveooss/json-schema-for-humans">json-schema-for-humans</a> on 2024-06-24 at 13:42:40 +0000</p>
+        <p class="generated-by-footer">Generated using <a href="https://github.com/coveooss/json-schema-for-humans">json-schema-for-humans</a> on 2024-06-24 at 14:39:47 +0000</p>
     </footer></body>
 </html>
