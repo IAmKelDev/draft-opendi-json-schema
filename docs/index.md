@@ -5125,6 +5125,6 @@
         
 
     <footer>
-        <p class="generated-by-footer">Generated using <a href="https://github.com/coveooss/json-schema-for-humans">json-schema-for-humans</a> on 2024-06-24 at 12:38:52 +0000</p>
+        <p class="generated-by-footer">Generated using <a href="https://github.com/coveooss/json-schema-for-humans">json-schema-for-humans</a> on 2024-06-24 at 13:42:40 +0000</p>
     </footer></body>
 </html>
