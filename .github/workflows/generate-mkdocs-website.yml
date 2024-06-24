@@ -12,6 +12,10 @@ on:
     paths:               # Run when site contents or configuration changes
       - 'docs/*'
       - 'mkdocs.yml'
+  workflow_run:
+    workflows: ["Generate Schema Docs"]
+    types:
+      - completed
 
   workflow_dispatch:   # Allow manual re-run from Actions tab
 
