@@ -24,11 +24,6 @@
                     "description": "If 'type' is set to 'Custom', use this to specify the custom status name.",
                     "type": "string"
                 },
-                "version": {
-                    "title": "Model Version",
-                    "description": "Version number for the model.",
-                    "type": "string"
-                },
                 "partialRetrieval": {
                     "title": "Partial Retrieval",
                     "description": "When retrieving this CDM, tells what kind of partial data was retrieved. null means full model was retrieved.",
@@ -121,6 +116,34 @@
                         "MIMEType": {"type": "string"}
                     },
                     "required": ["content", "MIMEType"]
+                },
+                "version": {
+                    "title": "Asset Version",
+                    "description": "Version number for the asset.",
+                    "type": "string"
+                },
+
+                "createdBy": {
+                    "title": "Created By",
+                    "description": "Unique identifier for this asset's creator.",
+                    "$ref": "#/$defs/uuid"
+                },
+                "createdDate": {
+                    "title": "Creation Date",
+                    "description": "Datetime when this asset was created.",
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "updatedBy": {
+                    "title": "Last Updated By",
+                    "description": "Unique identifier for the user that most recently updated this asset.",
+                    "$ref": "#/$defs/uuid"
+                },
+                "updatedDate": {
+                    "title": "Last Updated Date",
+                    "description": "Datetime when this asset was most recently updated.",
+                    "type": "string",
+                    "format": "date-time"
                 }
             },
             "required": ["uuid"]
